@@ -2,6 +2,9 @@
 *{
     margin: 0 auto;
 }
+.margin{
+margin: 0 auto;;
+}
 /*font style*/
 
 .quicksand-32 {
@@ -16,6 +19,7 @@
     font-size:3.5rem;
     font-weight: bold;
     color: black;
+    margin-top: 24px;
   
   }
   .quicksand-46 {
@@ -23,12 +27,14 @@
     font-size:2.8rem;
     font-weight: bold;
     color: black;
+    margin-top: 24px;
   
   }
   .quicksand-20 {
     font-family: "Quicksand", serif;
     font-size:1.2rem;
-    font-weight:500;
+    font-weight:400;
+    margin-top:24px ;
   
   }
 
@@ -44,6 +50,16 @@
     border: none;
     background-color: orange;
     padding: 10px 60.5px;
+}
+.btn-style2{
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius:0.75rem;
+  color: white;
+  border: none;
+  background-color: black;
+  padding: 10px 60.5px;
+  margin-top: 24px;
 }
 /*color styles*/
 
@@ -87,7 +103,7 @@ header>div>h3{
   }
   nav li{
     list-style:none;
-    margin:10px;
+    margin-bottom:10px;
     padding: 5px;;
   }
   nav li a{
@@ -121,6 +137,43 @@ header>div>h3{
     margin-top: 10px;
    }
     
-   
-    
   }
+
+  /*banner style*/
+.color-or{
+  color: orange;
+}
+.color-sky{
+  color:skyblue;
+}
+.Standard-Curriculum-container{
+  display: flex;
+}
+
+@media screen and (max-width:576px) {
+
+  br{
+    display: none;
+  }
+  .Standard-Curriculum-container{
+    flex-direction: column-reverse;
+    text-align: center;
+    margin: 20px;
+  }
+  .kid-pic{
+    height:413px ;
+    width: 336.58px;
+
+  }
+  .quicksand-56{
+    font-size:2rem;
+  }
+  .quicksand-20{
+    font-size:0.8rem;
+  }
+  .btn-style2{
+    font-size:16px;
+    padding: 6px 24px;
+    border-radius:8px;
+  }
+}
