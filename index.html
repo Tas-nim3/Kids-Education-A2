@@ -4,28 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kids Education</title>
-    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+       <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+       <link rel="stylesheet" href="styles/style.css">
     
 </head>
-<body>
-    <header class="header-container">
-        <div>
+<body class="body-bg-img">
+    <header class="header-container flex">
+       <div class="flex">
             <img src="assets/logo.png" alt="logo of kids school">
-            <h3>SCHOOL</h3>
+            <h3 class="quicksand-32 hide">SCHOOL</h3>
         </div>
-        <nav class="navbar">
-
-            <ul>
+        <nav class="navbar hide">
+            <ul class="nav-links quicksand-20">
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Facilities</a></li>
                 <li><a href="">Admission</a></li>
             </ul>
-            <button class="contact-btn">Contact</button>
         </nav>
-        
+        <button class="btn-style hide">Contact</button>
+        <img src="assets/3bars.png" alt="3 bars icon" class="bars hide-in-pc" >
     </header>
+    <hr class="hide-in-pc">
     <main>
         <section class="Standard-Curriculum-section">
             
