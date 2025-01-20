@@ -37,6 +37,28 @@ margin: 0 auto;;
     margin-top:24px ;
   
   }
+  .quicksand-24 {
+    font-family: "Quicksand", serif;
+    font-size:1.5rem;
+    font-weight:bold;
+    margin-top:24px ;
+    margin-bottom: 34px;
+  
+  }
+  .quicksand-15-bold{
+    font-family: "Quicksand", serif;
+    font-size:0.93rem;
+    font-weight:bold;
+    margin-top:24px ;
+  
+  }
+  .quicksand-15-{
+    font-family: "Quicksand", serif;
+    font-size:0.93rem;
+    font-weight:400;
+    margin-top:24px ;
+  
+  }
 
 
 
@@ -146,7 +168,7 @@ header>div>h3{
 .color-sky{
   color:skyblue;
 }
-.Standard-Curriculum-container{
+.banner-container{
   display: flex;
 }
 
@@ -155,7 +177,7 @@ header>div>h3{
   br{
     display: none;
   }
-  .Standard-Curriculum-container{
+  .banner-container{
     flex-direction: column-reverse;
     text-align: center;
     margin: 20px;
@@ -176,4 +198,61 @@ header>div>h3{
     padding: 6px 24px;
     border-radius:8px;
   }
+}
+
+/*Standard Curriculum section styles*/
+.Standard-Curriculum-container {
+background-image: url(/assets/bg.png);
+text-align: center;
+width:80%;
+
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  gap:28.1px; 
+}
+
+.Curriculum-card {
+  margin-top: 80px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-between;
+  height:auto;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1; 
+  
+}
+
+.Curriculum-card:nth-child(1) {
+  background: linear-gradient(to bottom, #DEF5FF, #FFFFFF);
+}
+
+.Curriculum-card:nth-child(2) {
+  background: linear-gradient(to bottom, #FFF4DC, #FFFFFF);
+}
+
+.Curriculum-card:nth-child(3) {
+  background: linear-gradient(to bottom, #F2E8FF, #FFFFFF);
+}
+
+.Curriculum-card img {
+   width:125.41px;
+   height:126.1 px;
+  border-radius: 10px;
+}
+
+.Curriculum-card:nth-child(1) span {
+  color: #0056b3; }
+
+.Curriculum-card:nth-child(2) span {
+  color: #d19e3c; }
+
+.Curriculum-card:nth-child(3) span {
+  color: #9e6bb8; 
 }
