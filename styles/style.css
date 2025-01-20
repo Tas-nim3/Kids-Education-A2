@@ -83,6 +83,50 @@ margin: 0 auto;;
   padding: 10px 60.5px;
   margin-top: 24px;
 }
+
+.date-btn-sky{
+   background-color:#3CD8E8;
+   color:white;
+   font-size:15.34px;
+   border-radius:47.93px;
+   padding:15px 19px;
+   border:none;
+   display: block;
+
+}
+.date-btn-green{
+  background-color:#95B226;
+  color:white;
+  font-size:15.34px;
+  border-radius:47.93px;
+  padding:15px 19px;
+  border:none;
+  display: block;
+
+}
+.date-btn-purple{
+  background-color:#5D58F0;
+  color:white;
+  font-size:15.34px;
+  border-radius:47.93px;
+  padding:15px 19px;
+  border:none;
+  display: block;
+
+}
+
+.unique-btn-container{
+  text-align: center;
+  margin:50px;
+}
+.unique-btn{
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size:50px;
+  padding:10px 20px;
+}
 /*color styles*/
 
   /*Body styles*/
@@ -256,3 +300,51 @@ width:80%;
 .Curriculum-card:nth-child(3) span {
   color: #9e6bb8; 
 }
+
+@media screen and (max-width:576px) {
+  .card-container{
+    flex-direction: column;
+  }
+  .Curriculum-card {
+    margin-top:auto;
+}
+section>h2{
+  margin: 20px;;
+}
+
+.hide{
+  display: none;
+}
+
+
+}
+/*our story section*/
+.Our-Stories-section{
+  background-image: url(/assets/bg.png);
+}
+
+.back-clr{
+  background-color: white;
+}
+.story-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px); 
+  gap:18px;
+}
+
+
+#box-1{
+  grid-row:span 2;
+}
+
+
+
+
+/*footer styles*/
+.footer-section{
+
+  background-color:#01ACFD ;
+  color:white;
+  display: flex;
+  }
