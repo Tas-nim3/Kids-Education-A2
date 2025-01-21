@@ -147,6 +147,7 @@ margin: 0 auto;;
 .effect:hover {
   background-color: #0003b3;
 
+
 }
 
 
@@ -314,27 +315,30 @@ text-align: center;
   height:auto;
   text-align: center;
   padding: 40px;
-  border-radius: 10px;
+  border-radius:18.86px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   flex: 1; 
   
 }
 
 .Curriculum-card:nth-child(1) {
-  background: linear-gradient(to bottom, #DEF5FF, #FFFFFF);
+  background: linear-gradient(to bottom, #def5ff, #ffffff);
+  border:1px solid #DEF5FF ;
 }
 
 .Curriculum-card:nth-child(2) {
   background: linear-gradient(to bottom, #FFF4DC, #FFFFFF);
+  border:1px solid #FFF4DC ;
 }
 
 .Curriculum-card:nth-child(3) {
-  background: linear-gradient(to bottom, #F2E8FF, #FFFFFF);
+  background: linear-gradient(to bottom, #F2E8FF, #ffffff);
+  border:1px solid #F2E8FF ;
 }
 
 .Curriculum-card img {
    width:125.41px;
-   height:126.1 px;
+   height:126.1px;
   border-radius: 10px;
 }
 
@@ -352,12 +356,15 @@ text-align: center;
 @media screen and (max-width:576px) {
   .card-container{
     flex-direction: column;
-    width: 90%;
+    width: 95%;
     
   }
   .Curriculum-card {
     margin-top:auto;
     
+}
+.Curriculum-card p br{
+  display: none;
 }
 section>h2{
   margin: 20px;;
@@ -377,11 +384,9 @@ section>h2{
 
 .Our-Stories-section {
   background: 
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(254, 163, 1, 0.1)), /* Gradient er transparency onek kom */
+    linear-gradient(to bottom, rgba(253, 253, 253, 0.281), rgba(219, 141, 7, 0.315)), 
     url(../assets/bg.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  
   text-align: center;
   
 }
@@ -524,6 +529,7 @@ section>h2{
     background: #ffffff;
     padding: 10px;
     color: #333;
+    font-size:20px;
     overflow: hidden;
 }
 
@@ -536,7 +542,7 @@ section>h2{
 .marquee span {
   display: inline-block;
   white-space: nowrap;
-  animation: scroll 10s linear infinite;
+  animation: scroll 17s linear infinite;
 }
 
 @keyframes scroll {
@@ -547,6 +553,7 @@ section>h2{
       transform: translateX(270%); 
   }
 }
+
 
 /*footer styles*/
 .footer-section{
@@ -610,5 +617,7 @@ section>h2{
    .footer-container>div>h2>br{
     display: block;
    }
+   .footer-container3 img{
+    margin-bottom: 60px;};
 
   }
