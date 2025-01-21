@@ -292,7 +292,7 @@ header>div>h3{
 
 
 .Standard-Curriculum-container {
-background-image: url(/assets/bg.png);
+background-image: url(../assets/bg.png);
 text-align: center;
 
 
@@ -378,7 +378,7 @@ section>h2{
 .Our-Stories-section {
   background: 
     linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(254, 163, 1, 0.1)), /* Gradient er transparency onek kom */
-    url(/assets/bg.png);
+    url(../assets/bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
