@@ -226,16 +226,57 @@ header>div>h3{
     .hide{
         display: none;}
 
-     header>div>img{
+   header>div>img{
             height:46px;
             width: 46px;
         }
 
-    .bars{
-       width: 30px;
-       height: 30px;
-       margin-top:10px;
+  .menu-container {
+     position: relative;
     }
+      
+/* Hamburger Icon */
+  .bars {
+     cursor: pointer;
+     display: inline-block;
+     width: 30px;
+     margin-right: 10px;
+  }
+      
+   .bars span {
+          display: block;
+          height: 4px;
+          margin: 5px 0;
+          background-color: #333;
+          
+      }
+      .menu-options {
+        position:absolute;
+        list-style: none;
+        display: none;
+        background-color:white;
+        padding: 0;
+        margin-left: -21px;
+        margin-top: 10px;
+        
+    }
+
+    .menu-options li {
+        padding-top: 5px;
+       
+    }
+
+    .menu-options li a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #333;
+      
+    }
+
+    #menu-toggle:checked + .bars + .menu-options {
+      display: block;
+  }
+
    
     .header-container{
       gap:282px;
@@ -589,7 +630,7 @@ section>h2{
   height: 81.65px;
  }
  .footer-container >div>h2{
-  margin-left: -65px;
+  margin-left: -75px;
  
  }
  
@@ -621,7 +662,7 @@ section>h2{
     
   }
   .footer-container >div>h2{
-    margin-left:-120px;
+   
     margin-top:12px;
    
    }
